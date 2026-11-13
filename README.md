@@ -43,7 +43,7 @@ Untuk memenuhi standar evaluasi model buatan sendiri, dilakukan perbandingan ter
 ---
 
 ## 🤖 5. Integrasi Generative AI & Lightweight RAG
-- **Foundation LLM:** Google Gemini 1.5 Flash (`gemini-1.5-flash`) via `google-genai` SDK.
+- **Foundation LLM:** Google Gemini 3.5 Flash-lite (`gemini-1.5-flash-lite`) via `google-genai` SDK.
 - **Vector Database:** ChromaDB (lokal/persistent storage).
 - **RAG Workflow:** Teks pertanyaan pengguna di-*embed* untuk mengambil dokumen relevan dari ChromaDB (profil menu, harga, daya tahan roti, aturan PO), lalu diinjeksikan ke dalam *system prompt* terstruktur.
 - **Guardrails:** Menerapkan instruksi ketat agar model menolak pertanyaan *out-of-context* (politik, pemrograman, tugas sekolah) dengan respons ramah khas layanan pelanggan DimoDali.
